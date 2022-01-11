@@ -85,7 +85,6 @@ class Allergy(models.Model):
         db_table = 'allergy'
 
 class Sizes(models.Model):
-
     name = models.CharField(max_length=45)
     size_ml = models.CharField(max_length=45,null=True)
     size_fluid_ounce = models.CharField(max_length=45,null=True)
